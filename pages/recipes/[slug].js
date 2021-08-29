@@ -59,7 +59,7 @@ export default function OneRecipe({ data, preview }) {
             {recipe.ingredient?.map((ingredient) => (
               <li key={ingredient._key} className="ingredient">
                 {ingredient?.wholeNumber}
-                {ingredient?.fraction} {ingredient?.unit}
+                {ingredient?.fraction} {" "}{ingredient?.unit}
                 <br />
                 {ingredient?.ingredient?.name}
               </li>
