@@ -49,7 +49,7 @@ export default function OneRecipe({ data, preview }) {
       <h1>{recipe.name}</h1>
 
       <button className="like-button" onClick={addLike}>
-        {likes} ❤️
+        {likes} 👍
       </button>
 
       <main className="content">
